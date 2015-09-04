@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ooo:color-table xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg" xmlns:ooo="http://openoffice.org/2004/office">
+
+<draw:color draw:name="1" draw:color="#17bc99"/>
+<draw:color draw:name="2" draw:color="#15a187"/>
+<draw:color draw:name="3" draw:color="#f2c40f"/>
+<draw:color draw:name="4" draw:color="#f39a16"/>
+<draw:color draw:name="5" draw:color="#30cb71"/>
+<draw:color draw:name="6" draw:color="#25ae5e"/>
+<draw:color draw:name="7" draw:color="#e77e22"/>
+<draw:color draw:name="8" draw:color="#d25300"/>
+<draw:color draw:name="9" draw:color="#58aee5"/>
+<draw:color draw:name="10" draw:color="#317cb0"/>
+<draw:color draw:name="11" draw:color="#e94c3d"/>
+<draw:color draw:name="12" draw:color="#bf392b"/>
+<draw:color draw:name="13" draw:color="#9a59b5"/>
+<draw:color draw:name="14" draw:color="#9143b0"/>
+<draw:color draw:name="15" draw:color="#ecf0f1"/>
+<draw:color draw:name="16" draw:color="#bec3c7"/>
+<draw:color draw:name="17" draw:color="#34495d"/>
+<draw:color draw:name="18" draw:color="#2d3e50"/>
+<draw:color draw:name="19" draw:color="#95a4a7"/>
+<draw:color draw:name="20" draw:color="#7e8c8d"/>
+
+
+</ooo:color-table>

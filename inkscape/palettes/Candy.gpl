@@ -1,0 +1,256 @@
+GIMP Palette
+Name: Candy
+Columns: 18
+#
+255 238 192    skin a1
+255 213 171    skin a2
+252 161 134    skin a3
+232 122 104    skin a4
+206 81 86    skin a5
+237 76 86    skin a6(pink)
+214 172 130    Skin b1
+191 142 94    Skin b2
+175 110 81    Skin b3
+156 81 70    Skin b4
+135 62 74    Skin b5
+133 65 56    Skin b6(pink)
+252 238 215    Skin C
+249 221 177    None
+247 174 138    Skin C
+239 141 125    Skin C
+211 109 116    Skin C
+235 139 117    Skin C
+248 224 189    Skin D
+223 183 129    Skin D
+194 151 91    Skin D
+182 117 85    Skin D
+179 97 83    Skin D
+115 58 60    Skin D
+215 176 119    Skin E
+189 131 83    Skin E
+140 99 62    Skin E
+125 83 74    Skin E
+109 66 72    Skin E
+155 113 77    Skin E
+195 136 91    Skin F
+135 95 65    Skin F
+91 67 46    Skin F
+79 52 49    Skin F
+62 38 49    Skin F
+168 102 65    Skin F
+255 250 189    blond1
+255 230 97    blond2
+225 159 89    blond3
+216 124 91    blond4
+187 88 84    blond5
+244 142 72    red hair1
+169 82 25    red hair2
+144 65 24    red hair3
+99 51 36    red hair4
+63 32 32    red hair5
+172 127 94    brown hair
+105 61 46    brown hair
+76 45 41    brown hair
+65 39 43    brown hair
+24 13 28    brown hair
+36 26 20    amber eyes
+154 110 63    amber eyes
+212 155 43    amber eyes
+191 72 42    auburn hair
+128 40 26    auburn hair
+73 22 15    auburn hair
+35 11 22    auburn hair
+17 6 16    auburn hair
+125 90 54    dark brown hair
+102 68 45    dark brown hair
+73 43 32    dark brown hair
+47 26 22    dark brown hair
+18 10 16    dark brown hair
+24 32 35    blue eyes1
+0 172 221    blue eyes2
+31 206 255    blue eyes3
+241 247 248    blue eyes4
+17 21 15    green eyes
+57 176 0    green eyes
+90 255 10    green eyes
+200 255 174    green eyes
+35 12 12    brown eyes
+146 65 41    brown eyes
+230 109 51    brown eyes
+244 178 124    brown eyes
+17 14 18    purple eyes
+155 30 160    purple eyes
+218 65 224    purple eyes
+246 149 249    purple eyes
+255 161 173    red eyes
+235 55 55    red eyes
+161 20 20    red eyes
+25 14 11    red eyes
+18 12 18    black hair
+36 28 38    black hair
+48 38 45    black hair
+96 80 82    black hair
+255 255 255    eyewhite light
+109 146 155    eyewhite dark
+255 73 1    general orange
+208 51 0    general orange
+177 38 0    general orange
+128 31 21    general orange
+98 25 38    general orange
+79 20 60    general orange
+255 178 71    general gold
+255 159 27    general gold
+223 129 0    general gold
+177 103 0    general gold
+141 67 16    general gold
+103 63 35    general gold
+246 234 42    general yellow
+244 213 0    general yellow
+231 175 0    general yellow
+189 144 55    general yellow
+157 120 86    general yellow
+134 102 103    general yellow
+116 255 6    general yellow green
+99 226 0    general yellow green
+80 169 4    general yellow green
+63 128 25    general yellow green
+42 86 45    general yellow green
+28 58 47    general yellow green
+80 225 47    general green
+41 220 0    general green
+33 177 0    general green
+23 127 39    general green
+15 84 61    general green
+10 55 55    general green
+42 242 64    general blue green
+19 211 59    general blue green
+16 174 64    general blue green
+12 136 88    general blue green
+9 102 87    general blue green
+6 65 76    general blue green
+0 255 196    general cyan
+0 230 200    general cyan
+0 176 177    general cyan
+0 131 171    general cyan
+0 98 190    general cyan
+0 67 129    general cyan
+33 116 192    None
+37 66 158    None
+26 37 146    general blue
+23 19 102    None
+27 14 66    None
+30 10 58    None
+158 99 182    general violet
+109 62 165    general violet
+60 26 146    general violet
+33 14 97    None
+19 8 56    general violet
+19 8 31    general violet
+210 50 255    general purple
+180 0 236    general purple
+135 0 177    general purple
+88 0 148    general purple
+67 0 129    general purple
+37 0 63    general purple
+236 107 172    general fushia
+237 19 154    general fushia
+177 0 115    general fushia
+128 0 108    general fushia
+102 0 110    general fushia
+72 0 89    general fushia
+255 103 133    general magenta
+247 69 104    general magenta
+245 23 67    general magenta
+183 4 39    general magenta
+153 3 56    general magenta
+114 2 63    general magenta
+252 215 202    pastel red
+250 187 166    pastel red
+248 149 116    pastel red
+245 119 103    pastel red
+243 83 90    pastel red
+240 50 88    pastel red
+252 234 193    pastel orange
+250 213 135    pastel orange
+248 197 117    pastel orange
+242 148 62    pastel orange
+234 105 45    pastel orange
+231 87 36    pastel orange
+252 251 190    pastel yellow
+248 246 117    pastel yellow
+218 198 102    pastel yellow
+194 158 103    pastel yellow
+167 131 113    pastel yellow
+144 108 115    pastel yellow
+235 253 190    pastel yellow green
+213 251 151    pastel yellow green
+178 248 117    pastel yellow green
+131 240 66    pastel yellow green
+66 211 35    pastel yellow green
+50 163 82    pastel yellow green
+222 255 191    pastel green
+199 255 165    pastel green
+180 255 162    pastel green
+114 255 118    pastel green
+35 255 100    pastel green
+0 211 119    v
+222 254 191    pastel blue green
+202 252 187    pastel blue green
+117 248 156    pastel blue green
+22 226 123    pastel blue green
+16 169 134    pastel blue green
+17 131 124    pastel blue green
+216 245 253    pastel cyan
+171 232 251    pastel cyan
+117 218 248    pastel cyan
+63 183 244    pastel cyan
+24 143 242    pastel cyan
+8 112 221    pastel cyan
+182 231 251    pastel blue
+141 187 249    pastel blue
+58 138 244    pastel blue
+78 103 245    pastel blue
+19 73 242    pastel blue
+3 43 166    pastel blue
+234 180 251    pastel violet
+205 148 249    pastel violet
+176 117 248    pastel violet
+153 75 245    pastel violet
+131 37 243    pastel violet
+109 19 242    pastel violet
+242 169 250    pastel purple
+228 144 249    pastel purple
+204 114 247    pastel purple
+166 85 246    pastel purple
+137 71 245    pastel purple
+118 41 243    pastel purple
+252 223 211    pastel fushia
+250 170 184    pastel fushia
+248 117 167    pastel fushia
+220 79 157    pastel fushia
+188 51 141    pastel fushia
+150 33 132    pastel fushia
+254 227 232    general pink
+253 209 218    general pink
+252 179 193    general pink
+228 142 184    general pink
+200 96 189    general pink
+190 67 191    general pink
+238 238 219    general grey
+195 185 182    general grey
+162 141 154    general grey
+128 113 137    general grey
+73 70 92    general grey
+15 18 38    general grey
+241 241 174    general ramp
+225 179 167    general ramp
+207 145 183    general ramp
+180 145 201    general ramp
+155 145 220    general ramp
+135 145 234    general ramp
+247 247 150    ramp sturated
+217 140 121    ramp sturated
+185 98 152    ramp sturated
+122 76 150    ramp sturated
+51 46 91    ramp sturated
+15 18 38    ramp sturated
