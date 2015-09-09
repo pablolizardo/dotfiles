@@ -24,11 +24,12 @@ echo "$tab  Buen dia ${bold}${red}${underline}$USER${reset} !"
 
 echo "$tab  Linkeando paletas a Inkscape y a Gimp"
 cp -rf ./paletts/* ~/.config/inkscape/palettes/
-echo "$tab  Copiadas a Inkscape (~/.config/inkscape/palettes/)"
 cp -rf ./paletts/* ~/.gimp-2.8/palettes/
 cp -rf ./paletts/* ~/Library/Application\ Support/GIMP/2.8/palettes/
-echo "$tab  Copiadas a Gimp (~/.gimp-2.8/palettes/)"
+echo "$tab  Copiadas a Inkscape (~/.config/inkscape/palettes/)"
 cp -rf inkscape/* ~/.config/inkscape/
+echo "$tab  Copiadas a Gimp (~/.gimp-2.8/palettes/)"
+
 echo " "
 echo " "
 echo "$tab  Se copiaron las paletas a ${bold}${red}${underline}$1${reset} Gimp e Inkscape" 
