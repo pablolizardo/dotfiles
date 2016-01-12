@@ -133,14 +133,15 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         height="1057.63"
-         rx="0"
-         ry="0"
-         width="749.533" />
+         height="880"
+         rx="34"
+         ry="34"
+         width="712" />
       <eventcontext
          id="3dbox"
          style="stroke:none;stroke-linejoin:round;"
-         usecurrent="1">
+         usecurrent="1"
+         persp="perspective41401">
         <side
            id="XYfront"
            style="fill:#8686bf;stroke:none;stroke-linejoin:round;"
@@ -171,15 +172,17 @@
          style="fill:red;"
          end="0"
          start="0"
-         usecurrent="1" />
+         usecurrent="1"
+         open="0" />
       <eventcontext
          id="star"
          magnitude="5"
          style="fill:yellow;"
          usecurrent="1"
-         proportion="0.5"
+         proportion="0.366005"
          randomized="0"
-         rounded="0" />
+         rounded="0"
+         isflatsided="0" />
       <eventcontext
          id="spiral"
          style="fill:none;"
@@ -193,7 +196,7 @@
        style="fill:none;fill-rule:evenodd;stroke:black;stroke-opacity:1;stroke-linejoin:miter;stroke-linecap:butt;">
       <eventcontext
          id="pencil"
-         tolerance="4"
+         tolerance="32.7308"
          selcue="1"
          style="stroke-width:1px;"
          usecurrent="0"
@@ -203,17 +206,18 @@
          mode="drag"
          selcue="1"
          style="stroke-width:1px;"
-         usecurrent="0" />
+         usecurrent="1"
+         freehand-mode="0" />
     </group>
     <eventcontext
        id="calligraphic"
        style="fill:black;fill-opacity:1;fill-rule:nonzero;stroke:none;"
        mass="2"
        angle="30"
-       width="15"
+       width="3.53846"
        thinning="10"
-       flatness="90"
-       cap_rounding="0"
+       flatness="23"
+       cap_rounding="0.1"
        usecurrent="1"
        tracebackground="0"
        usepressure="1"
@@ -333,36 +337,39 @@
        usecurrent="0"
        gradientdrag="1"
        font_sample="AaBbCcIiPpQq12369$€¢?.;/()"
-       show_sample_in_list="1"
+       show_sample_in_list="0"
        style="fill:black;fill-opacity:1;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;line-height:125%;letter-spacing:0px;word-spacing:0px"
-       selcue="1" />
+       selcue="1"
+       align_mode="2" />
     <eventcontext
        id="nodes"
        selcue="1"
        gradientdrag="1"
-       highlight_color="4278190335"
+       highlight_color="-16750337"
        pathflash_enabled="1"
        pathflash_unselected="0"
        pathflash_timeout="500"
        show_handles="1"
-       show_outline="0"
+       show_outline="1"
        sculpting_profile="1"
-       single_node_transform_handles="0"
+       single_node_transform_handles="1"
        show_transform_handles="0"
        live_outline="1"
        live_objects="1"
        show_helperpath="0"
        x="0"
        y="0"
-       edit_clipping_paths="0"
-       edit_masks="0" />
+       edit_clipping_paths="1"
+       edit_masks="1"
+       show_path_direction="1"
+       pathflash_selected="1" />
     <eventcontext
        id="tweak"
        selcue="0"
        gradientdrag="0"
        show_handles="0"
-       width="0.2"
-       force="0.2"
+       width="0.365385"
+       force="0.428846"
        fidelity="0.5"
        usepressure="1"
        style="fill:red;stroke:none;"
@@ -370,7 +377,8 @@
        doh="1"
        dol="1"
        doo="1"
-       dos="1" />
+       dos="1"
+       mode="9" />
     <eventcontext
        id="spray"
        selcue="1"
@@ -382,10 +390,13 @@
        rotation_variation="0"
        scale_variation="0"
        standard_deviation="70"
-       mean="0" />
+       mean="0"
+       offset="100" />
     <eventcontext
        id="gradient"
-       selcue="1" />
+       selcue="1"
+       newfillorstroke="1"
+       newgradient="1" />
     <eventcontext
        id="mesh"
        selcue="1"
@@ -409,7 +420,7 @@
        id="connector"
        style="fill:none;fill-rule:evenodd;stroke:black;stroke-opacity:1;stroke-linejoin:miter;stroke-width:1px;stroke-linecap:butt;"
        selcue="1"
-       curvature="3"
+       curvature="0"
        length="100" />
     <eventcontext
        id="paintbucket"
@@ -419,9 +430,12 @@
        offsetunits="pt"
        threshold="5" />
     <group
-       unit="px"
+       offset="5"
+       scale="100"
+       precision="2"
+       fontsize="10"
        id="measure"
-       fontsize="10" />
+       unit="px" />
   </group>
   <group
      id="palette">
@@ -539,7 +553,7 @@
   </group>
   <group
      id="colorselector"
-     page="0" />
+     page="1" />
   <group
      id="embedded">
     <group
@@ -552,44 +566,126 @@
        panel_border="0" />
   </group>
   <group
-     id="dialogs">
+     id="dialogs"
+     showclose="1">
     <group
        id="toolbox" />
     <group
-       id="fillstroke" />
+       id="fillstroke"
+       panel_size="1"
+       panel_ratio="100"
+       panel_mode="1"
+       panel_wrap="0"
+       panel_border="0"
+       page="0"
+       x="0"
+       y="0"
+       w="550"
+       h="316"
+       visible="0"
+       state="2"
+       placement="1" />
     <group
        id="filtereffects" />
     <group
-       id="textandfont" />
+       id="textandfont"
+       panel_size="1"
+       panel_ratio="100"
+       panel_mode="1"
+       panel_wrap="0"
+       panel_border="0"
+       x="0"
+       y="0"
+       w="1"
+       h="1"
+       visible="1"
+       state="3"
+       placement="1" />
     <group
        id="transformation"
-       applyseparately="0" />
+       applyseparately="1"
+       panel_size="1"
+       panel_ratio="100"
+       panel_mode="1"
+       panel_wrap="0"
+       panel_border="0"
+       rotateCounterClockwise="1"
+       x="0"
+       y="0"
+       w="548"
+       h="317" />
     <group
-       id="align" />
+       id="align"
+       panel_size="1"
+       panel_ratio="100"
+       panel_mode="1"
+       panel_wrap="0"
+       panel_border="0"
+       align-to="0"
+       x="0"
+       y="0"
+       w="1"
+       h="1"
+       visible="1"
+       state="3"
+       placement="1" />
     <group
-       id="xml" />
+       id="xml"
+       panel_size="1"
+       panel_ratio="100"
+       panel_mode="1"
+       panel_wrap="0"
+       panel_border="0"
+       x="0"
+       y="0"
+       w="1"
+       h="1"
+       visible="1"
+       state="3"
+       placement="1" />
     <group
-       id="find" />
+       id="find"
+       panel_size="1"
+       panel_ratio="100"
+       panel_mode="1"
+       panel_wrap="0"
+       panel_border="0"
+       x="0"
+       y="0"
+       w="550"
+       h="219" />
     <group
        id="spellcheck"
        w="200"
        h="250"
        lang="en_US"
-       ignorenumbers="1" />
+       ignorenumbers="1"
+       ignoreallcaps="1" />
     <group
        id="documentoptions"
-       state="1" />
+       state="2"
+       panel_size="1"
+       panel_ratio="100"
+       panel_mode="1"
+       panel_wrap="0"
+       panel_border="0"
+       x="0"
+       y="0"
+       w="548"
+       h="742"
+       visible="1"
+       placement="1" />
     <group
        id="preferences"
        state="1"
-       h="835"
-       page="14"
+       h="912"
+       page="19"
        panel_border="0"
        panel_mode="1"
        panel_ratio="100"
        panel_size="1"
        panel_wrap="0"
-       w="1171"
+       w="1247"
        x="2038"
        y="291" />
     <group
@@ -600,41 +696,60 @@
        id="export"
        default=""
        append_extension="1"
-       path="">
+       path=""
+       panel_size="1"
+       panel_ratio="100"
+       panel_mode="1"
+       panel_wrap="0"
+       panel_border="0"
+       x="0"
+       y="0"
+       w="548"
+       h="621"
+       visible="0"
+       state="2"
+       placement="1">
       <group
-         id="exportarea" />
+         id="exportarea"
+         value="page" />
       <group
-         id="defaultxdpi" />
+         id="defaultxdpi"
+         value="300" />
+      <group
+         value="0"
+         id="hideexceptselected" />
     </group>
     <group
        id="save_as"
        default="org.inkscape.output.svg.inkscape"
        append_extension="1"
        enable_preview="1"
-       path=""
+       path="/Users/plizardo/TRABAJOS/elevation_stand_imac"
        use_current_dir="1" />
     <group
        id="save_copy"
-       default=""
+       default="org.inkscape.output.pdf.cairorenderer"
        append_extension="1"
        enable_preview="1"
-       path="" />
+       path="/Users/plizardo/TRABAJOS/00_INSTITUCIONAL/diseño_cajas_atras" />
     <group
        id="open"
        enable_preview="1"
-       path="" />
+       path="/Users/plizardo/TRABAJOS/00_INSTITUCIONAL/grilla_indo/disñeo/" />
     <group
        id="import"
        enable_preview="1"
-       path=""
-       ask="1"
+       path="/Users/plizardo/Pictures/caps/"
+       ask="0"
        link="link"
-       scale="optimizeSpeed" />
+       scale="auto"
+       forcexdpi="0" />
     <group
        id="debug"
        redirect="0" />
     <group
-       id="clonetiler" />
+       id="clonetiler"
+       dotrace="0" />
     <group
        id="gridtiler" />
     <group
@@ -654,12 +769,35 @@
        id="treeeditor" />
     <group
        id="layers"
-       maxDepth="20" />
+       maxDepth="20"
+       panel_size="1"
+       panel_ratio="100"
+       panel_mode="1"
+       panel_wrap="0"
+       panel_border="0"
+       x="0"
+       y="0"
+       w="1"
+       h="1"
+       visible="1"
+       state="3"
+       placement="1" />
     <group
        id="extensioneditor" />
     <group
        id="trace"
-       state="1" />
+       state="1"
+       panel_size="1"
+       panel_ratio="100"
+       panel_mode="1"
+       panel_wrap="0"
+       panel_border="0"
+       x="1624"
+       y="0"
+       w="590"
+       h="346"
+       visible="0"
+       placement="1" />
     <group
        id="script" />
     <group
@@ -675,6 +813,34 @@
        on-focus="1.0"
        on-blur="0.50"
        animate-time="100" />
+    <group
+       placement="2"
+       state="2"
+       visible="1"
+       h="296"
+       w="548"
+       y="0"
+       x="0"
+       panel_border="0"
+       panel_wrap="0"
+       panel_mode="1"
+       panel_ratio="100"
+       panel_size="1"
+       id="symbols" />
+    <group
+       asbitmap="0"
+       id="printing" />
+    <group
+       h="123"
+       w="407"
+       y="0"
+       x="0"
+       panel_border="0"
+       panel_wrap="0"
+       panel_mode="1"
+       panel_ratio="100"
+       panel_size="1"
+       id="livepatheffect" />
   </group>
   <group
      id="printing">
@@ -688,7 +854,7 @@
      id="options">
     <group
        id="renderingcache"
-       size="64" />
+       size="512" />
     <group
        id="useoldpdfexporter"
        value="0" />
@@ -718,13 +884,13 @@
        value="12" />
     <group
        id="cursortolerance"
-       value="8.0" />
+       value="5" />
     <group
        id="dragtolerance"
-       value="4.0" />
+       value="3" />
     <group
        id="grabsize"
-       value="3" />
+       value="2" />
     <group
        id="displayprofile"
        enable="0"
@@ -766,8 +932,8 @@
        id="wheelscroll"
        value="40" />
     <group
-       id="spacepans"
-       value="0" />
+       id="spacebarpans"
+       value="1" />
     <group
        id="wheelzooms"
        value="0" />
@@ -810,8 +976,8 @@
     <group
        id="dock"
        cancenterdock="1"
-       dockbarstyle="2"
-       switcherstyle="2" />
+       dockbarstyle="0"
+       switcherstyle="1" />
     <group
        id="dialogsskiptaskbar"
        value="1" />
@@ -861,10 +1027,10 @@
        remove="1" />
     <group
        id="blurquality"
-       value="1" />
+       value="-1" />
     <group
        id="filterquality"
-       value="1" />
+       value="-1" />
     <group
        id="showfiltersinfobox"
        value="1" />
@@ -936,8 +1102,8 @@
          origin_y="0.0"
          spacing_x="1.0"
          spacing_y="1.0"
-         color="1061158688"
-         empcolor="1061158720"
+         color="1068498720"
+         empcolor="-4522176"
          empspacing="5"
          dotted="0" />
       <group
@@ -957,18 +1123,95 @@
        colorsontop="0"
        partialdynamic="0" />
     <group
+       value="0"
+       id="spacepans" />
+    <group
        id="rendering" />
+    <group
+       numthreads="6"
+       id="threading" />
   </group>
   <group
-     id="extensions" />
+     id="extensions"
+     org.inkscape.input.gdkpixbuf.png.link="link"
+     org.inkscape.input.gdkpixbuf.jpg.link="link"
+     org.inkscape.input.gdkpixbuf.png.do_not_ask="1"
+     org.inkscape.render.empty_video.size="Custom"
+     org.inkscape.render.empty_video.width="1920"
+     org.inkscape.render.empty_video.height="1080"
+     org.inkscape.render.seamless_pattern_procedural.width="100"
+     org.inkscape.render.seamless_pattern_procedural.height="100"
+     org.inkscape.render.empty_page.size="a3"
+     org.inkscape.render.empty_page.orientation="horizontal"
+     org.inkscape.render.empty_page.background="normal"
+     org.inkscape.render.empty_desktop.size="800x600"
+     org.inkscape.render.empty_desktop.width="1920"
+     org.inkscape.render.empty_desktop.height="1080"
+     math.polyhedron.3d.obj="cube"
+     math.polyhedron.3d.type="face"
+     math.polyhedron.3d.r1_ax="x"
+     math.polyhedron.3d.r1_ang="0"
+     math.polyhedron.3d.r2_ax="x"
+     math.polyhedron.3d.r2_ang="0"
+     math.polyhedron.3d.r3_ax="x"
+     math.polyhedron.3d.r3_ang="0"
+     math.polyhedron.3d.r4_ax="x"
+     math.polyhedron.3d.r4_ang="0"
+     math.polyhedron.3d.r5_ax="x"
+     math.polyhedron.3d.r5_ang="0"
+     math.polyhedron.3d.r6_ax="x"
+     math.polyhedron.3d.r6_ang="0"
+     math.polyhedron.3d.scl="100"
+     math.polyhedron.3d.f_r="255"
+     math.polyhedron.3d.f_g="0"
+     math.polyhedron.3d.f_b="0"
+     math.polyhedron.3d.f_opac="100"
+     math.polyhedron.3d.s_opac="100"
+     math.polyhedron.3d.th="2"
+     math.polyhedron.3d.lv_x="1"
+     math.polyhedron.3d.lv_y="1"
+     math.polyhedron.3d.lv_z="-2"
+     math.polyhedron.3d.show="fce"
+     math.polyhedron.3d.z_sort="max"
+     math.polyhedron.3d.__live_effect__="0"
+     org.greygreen.inkscape.effects.extrude.mode="Polygons"
+     org.greygreen.inkscape.effects.extrude.__live_effect__="0"
+     org.inkscape.print.eps.cairo.PSlevel="PS3"
+     org.inkscape.print.eps.cairo.resolution="96"
+     org.inkscape.print.eps.cairo.bleed="0"
+     org.inkscape.output.pdf.cairorenderer.PDFversion="PDF-1.5"
+     org.inkscape.output.pdf.cairorenderer.resolution="96"
+     org.inkscape.output.pdf.cairorenderer.bleed="0"
+     org.ekips.filter.interp.exponent="0"
+     org.ekips.filter.interp.steps="10"
+     org.ekips.filter.interp.method="1"
+     org.ekips.filter.interp.__live_effect__="0"
+     org.ekips.filter.interp.style="1"
+     org.inkscape.effect.filter.Greyscale.red="0.21"
+     org.inkscape.effect.filter.Greyscale.green="0.72"
+     org.inkscape.effect.filter.Greyscale.blue="0.072"
+     org.inkscape.effect.filter.Greyscale.strength="0"
+     org.inkscape.effect.filter.ColorDropShadow.blur="1.1"
+     org.inkscape.effect.filter.ColorDropShadow.xoffset="0"
+     org.inkscape.effect.filter.ColorDropShadow.yoffset="1.3"
+     org.inkscape.effect.filter.ColorDropShadow.type="outer"
+     org.inkscape.effect.filter.ColorDropShadow.__live_effect__="0"
+     org.inkscape.effect.filter.ColorDropShadow.tab="optionstab"
+     il.wireframesphere.num_lat="19"
+     il.wireframesphere.num_long="24"
+     il.wireframesphere.tilt="35"
+     il.wireframesphere.rotation="4"
+     il.wireframesphere.radius="100"
+     il.wireframesphere.__live_effect__="0"
+     il.wireframesphere.hide_back="1" />
   <group
      id="desktop"
-     style="">
+     style="stroke-width:0.44344357px;stroke-miterlimit:4;stroke-dasharray:none;fill:#ffffff;fill-opacity:1;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:17.73774147px;line-height:125%;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east_asian:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;opacity:1;stroke:none;stroke-linecap:butt;stroke-linejoin:miter;stroke-dashoffset:0;stroke-opacity:1;marker:none;fill-rule:nonzero;text-orientation:mixed;-inkscape-font-specification:'ArialRoundedMTBold Bold Italic';font-family:ArialRoundedMTBold">
     <group
-       width="640"
-       height="480"
-       x="0"
-       y="0"
+       width="2560"
+       height="1391"
+       x="1394"
+       y="14"
        fullscreen="0"
        id="geometry"
        maximized="1" />
